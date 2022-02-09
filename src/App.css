@@ -1,0 +1,19 @@
+.main-section,
+.comment-section {
+    display: flex;
+}
+
+.users,
+.posts,
+.comments {
+    width: 50%;
+    margin: 10px;
+    padding: 10px;
+    border: solid silver;
+    box-sizing: border-box;
+}
+
+.comments {
+    width: 100%;
+    text-align: center;
+}
