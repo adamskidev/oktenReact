@@ -1,0 +1,7 @@
+.mission {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid black;
+    margin: 20px;
+}
