@@ -18,7 +18,7 @@ const Details = ({user, getId}) => {
             <h5>{company.name}</h5>
             <h5>{company.catchPhrase}</h5>
             <h5>{company.bs}</h5>
-            <button onClick={() => getId(id)}>Posts</button>
+            <button onClick={() => getId(id)}>Get posts</button>
         </div>
     );
 };
