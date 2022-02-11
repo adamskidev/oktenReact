@@ -9,7 +9,10 @@ const App = () => {
     const [user, setUser] = useState(null);
     const [id, setId] = useState(null);
 
-    const getUser = (user) => setUser(user);
+    const getUser = (user) => {
+        setUser(user);
+        setId(null);
+    }
     const getId = (id) => setId(id);
 
     return (
